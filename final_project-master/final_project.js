@@ -2,7 +2,9 @@ var namespace = "http://www.w3.org/2000/svg"
 
 // Write your code here!
 makeImage("http://www.picgifs.com/graphics/p/pokemon/graphics-pokemon-923525.gif",50,20,200,40)
-
+makeImage("http://slothyshroom.weebly.com/uploads/4/1/9/0/4190056/9445039_orig.gif",14,31,120,100)
+makeImage("http://www.animatedimages.org/data/media/1446/animated-pokemon-image-0031.gif",40,20,40,50)
+makeImage("")
 
 // DO NOT EDIT CODE BELOW THIS LINE!
 function getX(shape) {
