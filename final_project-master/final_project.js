@@ -1,12 +1,17 @@
 var namespace = "http://www.w3.org/2000/svg"
 
 // Write your code here!
-makeImage("http://www.picgifs.com/graphics/p/pokemon/graphics-pokemon-923525.gif",50,20,200,20)
-makeImage("http://slothyshroom.weebly.com/uploads/4/1/9/0/4190056/9445039_orig.gif",14,31,120,100)
-makeImage("http://www.animatedimages.org/data/media/1446/animated-pokemon-image-0031.gif",40,20,40,20)
-makeImage("http://vignette1.wikia.nocookie.net/projectcrusade/images/9/91/Flying_charizard_by_jameswolfsbane-d6c822w.gif/revision/latest?cb=20160406170752",10,30,115,50)
-makeImage("http://www.animatedimages.org/data/media/1446/animated-pokemon-image-0040.gif",60,55,210,20)
-makeImage("https://vignette2.wikia.nocookie.net/pokemon/images/3/3e/Articuno_XY.gif/revision/latest?cb=20140131073216",60,61,210,60)
+var charmander=makeImage("http://www.picgifs.com/graphics/p/pokemon/graphics-pokemon-923525.gif",50,20,200,20)
+var bat=makeImage("http://slothyshroom.weebly.com/uploads/4/1/9/0/4190056/9445039_orig.gif",14,31,120,100)
+var bulbasour=makeImage("http://www.animatedimages.org/data/media/1446/animated-pokemon-image-0031.gif",40,20,40,20)
+var charizard=makeImage("http://vignette1.wikia.nocookie.net/projectcrusade/images/9/91/Flying_charizard_by_jameswolfsbane-d6c822w.gif/revision/latest?cb=20160406170752",10,30,115,50)
+var butterfry=makeImage("http://www.animatedimages.org/data/media/1446/animated-pokemon-image-0040.gif",60,55,230,20)
+var articuno=makeImage("https://vignette2.wikia.nocookie.net/pokemon/images/3/3e/Articuno_XY.gif/revision/latest?cb=20140131073216",60,61,210,60)
+function animatecharizard(){
+  move(charizard,3,0.2)
+  requestAnimationFrame(animatecharizard)
+}
+animatecharizard()
 
 
 // DO NOT EDIT CODE BELOW THIS LINE!
