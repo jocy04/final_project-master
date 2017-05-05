@@ -7,11 +7,12 @@ var bulbasour=makeImage("http://www.animatedimages.org/data/media/1446/animated-
 var charizard=makeImage("http://vignette1.wikia.nocookie.net/projectcrusade/images/9/91/Flying_charizard_by_jameswolfsbane-d6c822w.gif/revision/latest?cb=20160406170752",10,30,115,50)
 var butterfry=makeImage("http://www.animatedimages.org/data/media/1446/animated-pokemon-image-0040.gif",60,55,230,20)
 var articuno=makeImage("https://vignette2.wikia.nocookie.net/pokemon/images/3/3e/Articuno_XY.gif/revision/latest?cb=20140131073216",60,61,210,60)
-function animatecharizard(){
+function animatecharizard (){
   move(charizard,3,0.2)
   requestAnimationFrame(animatecharizard)
 }
 animatecharizard()
+
 
 
 // DO NOT EDIT CODE BELOW THIS LINE!
