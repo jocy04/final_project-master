@@ -8,35 +8,30 @@ var charizard=makeImage("http://vignette1.wikia.nocookie.net/projectcrusade/imag
 var butterfry=makeImage("http://www.animatedimages.org/data/media/1446/animated-pokemon-image-0040.gif",60,55,230,20)
 var articuno=makeImage("https://vignette2.wikia.nocookie.net/pokemon/images/3/3e/Articuno_XY.gif/revision/latest?cb=20140131073216",50,50,210,60)
 function animatecharizard(){
-  move(charizard,)
+  move(charizard,3,0.2,)
   requestAnimationFrame(animatecharizard)
 }
 animatecharizard()
-
 function animatecrobat(){
   move(crobat,1,1)
   requestAnimationFrame(animatecrobat)
 }
 animatecrobat()
-
 function animatearticuno(){
   move(articuno,9,1)
   requestAnimationFrame(animatearticuno)
 }
 animatearticuno()
-
 function animatebutterfry(){
   move(butterfry,2,0.3)
   requestAnimationFrame(animatebutterfry)
 }
 animatebutterfry()
-
 function animatecharmander(){
 move(charmander,1.2,1)
 requestAnimationFrame(animatecharmander)
 }
 animatecharmander()
-
 function animatebulbasaur(){
 move(bulbasaur,3,0.1)
 requestAnimationFrame(animatebulbasaur)
