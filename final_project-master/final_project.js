@@ -5,15 +5,15 @@ var charmander=makeImage("http://www.picgifs.com/graphics/p/pokemon/graphics-pok
 var crobat=makeImage("http://slothyshroom.weebly.com/uploads/4/1/9/0/4190056/9445039_orig.gif",15,13,120,100)
 var bulbasaur=makeImage("http://www.animatedimages.org/data/media/1446/animated-pokemon-image-0031.gif",40,32,40,20)
 var charizard=makeImage("http://vignette1.wikia.nocookie.net/projectcrusade/images/9/91/Flying_charizard_by_jameswolfsbane-d6c822w.gif/revision/latest?cb=20160406170752",10,30,115,50)
-var butterfry=makeImage("http://www.animatedimages.org/data/media/1446/animated-pokemon-image-0040.gif",60,55,230,20)
+var butterfree=makeImage("http://www.animatedimages.org/data/media/1446/animated-pokemon-image-0040.gif",60,55,230,20)
 var articuno=makeImage("https://vignette2.wikia.nocookie.net/pokemon/images/3/3e/Articuno_XY.gif/revision/latest?cb=20140131073216",50,50,210,60)
 function animatecharizard(){
-  move(charizard,3,0.2,)
+  move(charizard,3,0.2)
   requestAnimationFrame(animatecharizard)
 }
 animatecharizard()
 function animatecrobat(){
-  move(crobat,1,1)
+  move(crobat,0.1,1)
   requestAnimationFrame(animatecrobat)
 }
 animatecrobat()
@@ -22,18 +22,18 @@ function animatearticuno(){
   requestAnimationFrame(animatearticuno)
 }
 animatearticuno()
-function animatebutterfry(){
-  move(butterfry,2,0.3)
-  requestAnimationFrame(animatebutterfry)
+function animatebutterfree(){
+  move(butterfree,2,0.3)
+  requestAnimationFrame(animatebutterfree)
 }
-animatebutterfry()
+animatebutterfree()
 function animatecharmander(){
-move(charmander,1.2,1)
+move(charmander,0.2,1)
 requestAnimationFrame(animatecharmander)
 }
 animatecharmander()
 function animatebulbasaur(){
-move(bulbasaur,3,0.1)
+move(bulbasaur,3,0.2)
 requestAnimationFrame(animatebulbasaur)
 }
 animatebulbasaur()
