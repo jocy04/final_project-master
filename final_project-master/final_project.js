@@ -8,11 +8,22 @@ var charizard=makeImage("http://vignette1.wikia.nocookie.net/projectcrusade/imag
 var butterfree=makeImage("http://www.animatedimages.org/data/media/1446/animated-pokemon-image-0040.gif",60,55,230,20)
 var articuno=makeImage("https://vignette2.wikia.nocookie.net/pokemon/images/3/3e/Articuno_XY.gif/revision/latest?cb=20140131073216",50,50,210,60)
 function animatecharizard(){
+  // Get charizard's x coordinate (use getX)
+  var  pokemon1= getX(charizard)
+  // IF his x cooridnate is greater than 300: (use an if statement)
+  if(charizard>300){
+    setX(charizard,0)
+  }
+      // SET his x coordinate to 0 (use setX)
   move(charizard,3,0.2)
   requestAnimationFrame(animatecharizard)
 }
 animatecharizard()
 function animatecrobat(){
+  var pokemon2=getX(crobat)
+  if(crobat>200){
+    setX(crobat,0)
+  }
   move(crobat,0.1,1)
   requestAnimationFrame(animatecrobat)
 }
